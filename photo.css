@@ -16,7 +16,7 @@ body {
 
 .intro {
     width: 55%;
-    max-width: 500px;
+    max-width: 550px;
     background-color: #77CDFF;
     border-style: solid;
     border-color: #0D92F4;
@@ -27,33 +27,12 @@ body {
     box-shadow: 5px 5px rgb(46, 44, 44);
 }
 
-.intro>p>a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-.hobbies {
-    width: 55%;
-    max-width: 500px;
-    background-color: #77CDFF;
-    border-color: #0D92F4;
-    border-style: solid;
-    border-radius: 15px;
-    padding: 0 20px;
-    margin: auto;
-    box-shadow: 5px 5px rgb(46, 44, 44);
-    margin-bottom: 40px;
-}
-
-.experiences {
-    margin: auto;
+.photos {
     width: 85%;
     background-color: #77CDFF;
+    border-style: solid;
     border-color: #0D92F4;
     box-shadow: 5px 5px rgb(46, 44, 44);
-    border-style: solid;
+    margin: auto;
     border-radius: 15px;
-    padding: 0 20px;
-    margin-bottom: 20px;
 }
