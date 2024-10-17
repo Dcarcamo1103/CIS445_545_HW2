@@ -1,0 +1,29 @@
+body {
+    font-family: "Open Sans";
+    background-color: #C62E2E;
+    margin: 0;
+}
+
+.header {
+    font-size: 20px;
+    background-color: #0D92F4;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+    /* text-decoration: underline; */
+    box-shadow: 0 5px rgb(46, 44, 44);
+}
+
+.intro {
+    width: 55%;
+    max-width: 550px;
+    background-color: #77CDFF;
+    border-style: solid;
+    border-color: #0D92F4;
+    padding: 0 20px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px rgb(46, 44, 44);
+    font-size: 17px;
+}
