@@ -45,7 +45,7 @@ body {
 
 .photos > img {
     margin: 15px;
-    width: 400px;
+    width: 25%;
     border-style: solid;
     border-radius: 15px;
     border-color: #0D92F4;
@@ -53,11 +53,15 @@ body {
     transition: width 0.20s;
 }
 
-.photos > .bench_view {
-    width: 500px;
+.photos > img:hover {
+    width: 35%;
+    cursor: pointer;
 }
 
-.photos > img:hover {
-    width: 30%;
-    cursor: pointer;
+.photos > .bench_view {
+    width: 35%;
+}
+
+.photos > .bench_view:hover {
+    width: 550px;
 }
