@@ -26,10 +26,15 @@ body {
     box-shadow: 5px 5px rgb(46, 44, 44);
 }
 
-.intro>p>a {
+.intro > p > a {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    transition: font-size 0.20s;
+}
+
+.intro > p > a:hover {
+    font-size: 17px;
 }
 
 .hobbies {
@@ -55,4 +60,43 @@ body {
     border-radius: 15px;
     padding: 0 20px;
     margin-bottom: 20px;
+}
+
+.experiences > .menu {
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.experiences > .menu > ul {
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+.experiences > .menu > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.experiences > .menu > ul > li {
+    display: inline-flex;
+    margin: 10px 40px;
+    font-size: 100%;
+    background-color: #0D92F4;
+    box-shadow: 5px 5px rgb(46, 44, 44);
+    padding: 15px;
+    border-style: solid;
+    border-color: #0D92F4;
+    border-radius: 25px;
+    transition: font-size 0.20s, font-weight 0.20s, background-color 0.20s;
+}
+
+.experiences > .menu > ul > li:hover {
+    font-size: 150%;
+    font-weight: 600;
+    background-color: #77CDFF;
 }

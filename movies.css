@@ -1,0 +1,83 @@
+body {
+    font-family: "Open Sans";
+    background-color: #C62E2E;
+    margin: 0;
+}
+
+.header {
+    font-size: 20px;
+    background-color: #0D92F4;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+    /* text-decoration: underline; */
+    box-shadow: 0 5px rgb(46, 44, 44);
+}
+
+.intro {
+    width: 55%;
+    max-width: 550px;
+    background-color: #77CDFF;
+    border-style: solid;
+    border-color: #0D92F4;
+    padding: 0 20px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px rgb(46, 44, 44);
+    font-size: 17px;
+}
+
+.posters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 85%;
+    background-color: #77CDFF;
+    border-style: solid;
+    border-color: #0D92F4;
+    box-shadow: 5px 5px rgb(46, 44, 44);
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.card {
+    margin: 15px;
+    width: 25%;
+    border-style: solid;
+    border-color: #0D92F4;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 5px rgb(46, 44, 44);
+    background-color: #fff;
+    transition: transform 0.20s, box-shadow 0.20s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 0 15px;
+}
+
+.card-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 8px 8px rgb(46, 44, 44);
+    cursor: default;
+}
